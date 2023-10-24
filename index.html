@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="./js/script.js"></script>
 </head>
 <body>
-    
+    <div class="mainPage">
+        <h1>Welcome to the Interactive ABCs of CSS Technology learning Website</h1>
+        <h2>Click on the buttons below to reveal and learn the CSS technology features of the corresponding letters </h2>
+        <div class="flexAlign contentDiv">
+            <div class="contentWidth">
+                <div class="hiddenDefault" id="aContent">
+                    <img src="./img/css-letter-a.png" alt="CSS Letter A">
+                    <button type="button" onclick="hideContent('aContent')">Hide Result</button>
+                </div>
+            </div>
+            <div class="contentWidth">
+                <div class="hiddenDefault" id="bContent">
+                    <img src="./img/css-letter-b.png" alt="CSS Letter B">
+                    <button type="button" onclick="hideContent('bContent')">Hide Result</button>
+                </div>
+            </div>
+            <div class="contentWidth">
+                <div class="hiddenDefault" id="cContent">
+                    <img src="./img/css-letter-c.png" alt="CSS Letter C">
+                    <button type="button" onclick="hideContent('cContent')">Hide Result</button>
+                </div>
+            </div>
+        </div>
+        <div class="flexAlign">
+            <button class="bottom" type="button" onclick="revealContent('aContent')">A</button>
+            <button class="bottom" type="button" onclick="revealContent('bContent')">B</button>
+            <button class="bottom" type="button" onclick="revealContent('cContent')">C</button>
+        </div>
+    </div>
 </body>
 </html>

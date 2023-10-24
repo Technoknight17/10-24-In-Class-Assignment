@@ -1,0 +1,58 @@
+.mainPage {
+    height: 770px;
+}
+
+h1 {
+    font-size: 24pt;
+    border: solid 2px black;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18pt;
+    border: solid 2px black;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+.flexAlign {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+button {
+    width: 100%;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+img {
+    width: 480px;
+}
+
+.hiddenDefault {
+    display: none;
+    padding-bottom: 5px;
+}
+
+.contentWidth {
+    width: 33%;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom {
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 50%;
+    justify-content: center;
+}
+
+.contentDiv {
+    min-height: 508.59px;
+}
